@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'ML-Derkach-Sydorova' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ML-Derkach-Sydorova
+
+  target 'ML-Derkach-SydorovaTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'ML-Derkach-SydorovaUITests' do
+    # Pods for testing
+  end
+
+end
