@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,17 +13,17 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ML_Derkach_Sydorova" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="61t-oM-7tV">
-                                <rect key="frame" x="16" y="47" width="396" height="845"/>
+                                <rect key="frame" x="16" y="48" width="382" height="814"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zeZ-cx-6hR">
-                                        <rect key="frame" x="8" y="8" width="380" height="761.66666666666663"/>
+                                        <rect key="frame" x="8" y="8" width="366" height="730.5"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3rY-jQ-YYX">
-                                        <rect key="frame" x="10" y="789.66666666666663" width="112" height="47.333333333333371"/>
+                                        <rect key="frame" x="10" y="758.5" width="112" height="47.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="photo" catalog="system" cornerStyle="large">
                                             <attributedString key="attributedTitle">
@@ -35,9 +35,12 @@
                                             </attributedString>
                                             <color key="baseBackgroundColor" red="1" green="0.47640825243088536" blue="0.12141094515583983" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="choosePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LM0-sj-NWm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFg-Al-hds">
-                                        <rect key="frame" x="216.66666666666663" y="789.66666666666663" width="169.33333333333337" height="47.333333333333371"/>
+                                        <rect key="frame" x="202.5" y="758.5" width="169.5" height="47.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" image="camera" catalog="system" cornerStyle="large">
                                             <attributedString key="attributedTitle">
@@ -77,6 +80,11 @@
                             <constraint firstItem="61t-oM-7tV" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="wfA-7f-AO3"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="camOpener" destination="ZFg-Al-hds" id="Cfs-Qe-ZOS"/>
+                        <outlet property="imageView" destination="zeZ-cx-6hR" id="dEx-lH-oWE"/>
+                        <outlet property="photoChooser" destination="3rY-jQ-YYX" id="jZN-5O-P0o"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
