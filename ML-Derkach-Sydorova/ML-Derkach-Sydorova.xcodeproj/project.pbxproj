@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52E277D637D095E3B3B963D1 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F446CBA543AB8B7F5888DBC1 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */; };
+		84C347FB62877DFECC8E2183 /* Pods_ML_Derkach_SydorovaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F0B16F6FBCE152603A68844 /* Pods_ML_Derkach_SydorovaTests.framework */; };
+		8EB89D27EC77CCF8B2439FCC /* Pods_ML_Derkach_Sydorova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3FC712CB4580AB32648669 /* Pods_ML_Derkach_Sydorova.framework */; };
 		B5E7DA202A43A42A004E57B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */; };
 		B5E7DA222A43A42A004E57B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */; };
 		B5E7DA242A43A42A004E57B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA232A43A42A004E57B1 /* ViewController.swift */; };
@@ -16,6 +19,7 @@
 		B5E7DA372A43A42B004E57B1 /* ML_Derkach_SydorovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA362A43A42B004E57B1 /* ML_Derkach_SydorovaTests.swift */; };
 		B5E7DA412A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA402A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift */; };
 		B5E7DA432A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */; };
+		C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E46AD44F182D5C0FDB991E9 /* Pods-ML-Derkach-Sydorova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.release.xcconfig"; sourceTree = "<group>"; };
+		10518B4F58592773EA3FDE85 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B3FC712CB4580AB32648669 /* Pods_ML_Derkach_Sydorova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0B16F6FBCE152603A68844 /* Pods_ML_Derkach_SydorovaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_SydorovaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41BF5143F86F382E7575F82F /* Pods-ML-Derkach-Sydorova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.debug.xcconfig"; sourceTree = "<group>"; };
 		B5E7DA1C2A43A42A004E57B1 /* ML-Derkach-Sydorova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML-Derkach-Sydorova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,11 @@
 		B5E7DA3C2A43A42B004E57B1 /* ML-Derkach-SydorovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ML-Derkach-SydorovaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7DA402A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Derkach_SydorovaUITests.swift; sourceTree = "<group>"; };
 		B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Derkach_SydorovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEBF0F135F7277ED2AC3D23D /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E22404AE1B0A682692BCA436 /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F09850BA455BE967078B1226 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.release.xcconfig"; sourceTree = "<group>"; };
+		F446CBA543AB8B7F5888DBC1 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB89D27EC77CCF8B2439FCC /* Pods_ML_Derkach_Sydorova.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84C347FB62877DFECC8E2183 /* Pods_ML_Derkach_SydorovaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E277D637D095E3B3B963D1 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10D266E208862B9C8E8876B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41BF5143F86F382E7575F82F /* Pods-ML-Derkach-Sydorova.debug.xcconfig */,
+				0E46AD44F182D5C0FDB991E9 /* Pods-ML-Derkach-Sydorova.release.xcconfig */,
+				10518B4F58592773EA3FDE85 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */,
+				BEBF0F135F7277ED2AC3D23D /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */,
+				E22404AE1B0A682692BCA436 /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */,
+				F09850BA455BE967078B1226 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		92AF1203A014AEB260B04364 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B3FC712CB4580AB32648669 /* Pods_ML_Derkach_Sydorova.framework */,
+				F446CBA543AB8B7F5888DBC1 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */,
+				3F0B16F6FBCE152603A68844 /* Pods_ML_Derkach_SydorovaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5E7DA132A43A42A004E57B1 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				B5E7DA352A43A42B004E57B1 /* ML-Derkach-SydorovaTests */,
 				B5E7DA3F2A43A42B004E57B1 /* ML-Derkach-SydorovaUITests */,
 				B5E7DA1D2A43A42A004E57B1 /* Products */,
+				10D266E208862B9C8E8876B6 /* Pods */,
+				92AF1203A014AEB260B04364 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +147,7 @@
 				B5E7DA252A43A42A004E57B1 /* Main.storyboard */,
 				B5E7DA282A43A42B004E57B1 /* Assets.xcassets */,
 				B5E7DA2A2A43A42B004E57B1 /* LaunchScreen.storyboard */,
+				C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */,
 				B5E7DA2D2A43A42B004E57B1 /* Info.plist */,
 			);
 			path = "ML-Derkach-Sydorova";
@@ -134,9 +177,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E7DA462A43A42B004E57B1 /* Build configuration list for PBXNativeTarget "ML-Derkach-Sydorova" */;
 			buildPhases = (
+				FD00D0313D5B0DCEA5DEC809 /* [CP] Check Pods Manifest.lock */,
 				B5E7DA182A43A42A004E57B1 /* Sources */,
 				B5E7DA192A43A42A004E57B1 /* Frameworks */,
 				B5E7DA1A2A43A42A004E57B1 /* Resources */,
+				D81C0A64047ED55E474AB369 /* [CP] Embed Pods Frameworks */,
+				4AA0F5D58859A9CA00309193 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E7DA492A43A42B004E57B1 /* Build configuration list for PBXNativeTarget "ML-Derkach-SydorovaTests" */;
 			buildPhases = (
+				790A4267638A83544061008C /* [CP] Check Pods Manifest.lock */,
 				B5E7DA2E2A43A42B004E57B1 /* Sources */,
 				B5E7DA2F2A43A42B004E57B1 /* Frameworks */,
 				B5E7DA302A43A42B004E57B1 /* Resources */,
@@ -169,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E7DA4C2A43A42B004E57B1 /* Build configuration list for PBXNativeTarget "ML-Derkach-SydorovaUITests" */;
 			buildPhases = (
+				7276E1A6B85F794C71CD1BC2 /* [CP] Check Pods Manifest.lock */,
 				B5E7DA382A43A42B004E57B1 /* Sources */,
 				B5E7DA392A43A42B004E57B1 /* Frameworks */,
 				B5E7DA3A2A43A42B004E57B1 /* Resources */,
+				9B68BDEF54EA8B0156BE2BC4 /* [CP] Embed Pods Frameworks */,
+				99CDA7D2F5BFA6EE0718718A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E7DA2C2A43A42B004E57B1 /* LaunchScreen.storyboard in Resources */,
+				C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */,
 				B5E7DA292A43A42B004E57B1 /* Assets.xcassets in Resources */,
 				B5E7DA272A43A42A004E57B1 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +303,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AA0F5D58859A9CA00309193 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7276E1A6B85F794C71CD1BC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		790A4267638A83544061008C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML-Derkach-SydorovaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99CDA7D2F5BFA6EE0718718A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B68BDEF54EA8B0156BE2BC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D81C0A64047ED55E474AB369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD00D0313D5B0DCEA5DEC809 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML-Derkach-Sydorova-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B5E7DA182A43A42A004E57B1 /* Sources */ = {
@@ -432,6 +620,7 @@
 		};
 		B5E7DA472A43A42B004E57B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41BF5143F86F382E7575F82F /* Pods-ML-Derkach-Sydorova.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +650,7 @@
 		};
 		B5E7DA482A43A42B004E57B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E46AD44F182D5C0FDB991E9 /* Pods-ML-Derkach-Sydorova.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +680,7 @@
 		};
 		B5E7DA4A2A43A42B004E57B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E22404AE1B0A682692BCA436 /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +701,7 @@
 		};
 		B5E7DA4B2A43A42B004E57B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F09850BA455BE967078B1226 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +722,7 @@
 		};
 		B5E7DA4D2A43A42B004E57B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10518B4F58592773EA3FDE85 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -548,6 +741,7 @@
 		};
 		B5E7DA4E2A43A42B004E57B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEBF0F135F7277ED2AC3D23D /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -35,9 +35,6 @@
                                             </attributedString>
                                             <color key="baseBackgroundColor" red="1" green="0.47640825243088536" blue="0.12141094515583983" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
-                                        <connections>
-                                            <action selector="choosePhoto:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LM0-sj-NWm"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZFg-Al-hds">
                                         <rect key="frame" x="202.5" y="758.5" width="169.5" height="47.5"/>

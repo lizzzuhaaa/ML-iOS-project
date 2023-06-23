@@ -35,9 +35,6 @@ class ViewController: UIViewController {
         picker.allowsEditing = true
         picker.delegate = self
         present(picker, animated: true)
-//        {
-//            picker.takePicture()
-//        }
     }
     
     override func viewDidLoad() {
