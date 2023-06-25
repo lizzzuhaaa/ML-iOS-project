@@ -8,6 +8,9 @@ target 'ML-Derkach-Sydorova' do
   # Pods for ML-Derkach-Sydorova
 pod 'GoogleMLKit/ObjectDetectionCustom', '3.2.0'
 pod 'GoogleMLKit/LinkFirebase', '3.2.0'
+pod 'Firebase/MLModelDownloader'
+ pod 'TensorFlowLiteSwift'
+
   target 'ML-Derkach-SydorovaTests' do
     inherit! :search_paths
     # Pods for testing

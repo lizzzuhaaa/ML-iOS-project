@@ -19,7 +19,9 @@
 		B5E7DA372A43A42B004E57B1 /* ML_Derkach_SydorovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA362A43A42B004E57B1 /* ML_Derkach_SydorovaTests.swift */; };
 		B5E7DA412A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA402A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift */; };
 		B5E7DA432A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */; };
+		C906F9522A48895D00B6C42B /* ModelWorking.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906F9512A48895D00B6C42B /* ModelWorking.swift */; };
 		C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */; };
+		C9602F5F2A487712008F84FE /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = C9602F5E2A487712008F84FE /* model.tflite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +61,9 @@
 		B5E7DA402A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Derkach_SydorovaUITests.swift; sourceTree = "<group>"; };
 		B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Derkach_SydorovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BEBF0F135F7277ED2AC3D23D /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C906F9512A48895D00B6C42B /* ModelWorking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWorking.swift; sourceTree = "<group>"; };
 		C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C9602F5E2A487712008F84FE /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
 		E22404AE1B0A682692BCA436 /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F09850BA455BE967078B1226 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.release.xcconfig"; sourceTree = "<group>"; };
 		F446CBA543AB8B7F5888DBC1 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,8 +151,10 @@
 				B5E7DA252A43A42A004E57B1 /* Main.storyboard */,
 				B5E7DA282A43A42B004E57B1 /* Assets.xcassets */,
 				B5E7DA2A2A43A42B004E57B1 /* LaunchScreen.storyboard */,
+				C9602F5E2A487712008F84FE /* model.tflite */,
 				C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */,
 				B5E7DA2D2A43A42B004E57B1 /* Info.plist */,
+				C906F9512A48895D00B6C42B /* ModelWorking.swift */,
 			);
 			path = "ML-Derkach-Sydorova";
 			sourceTree = "<group>";
@@ -281,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9602F5F2A487712008F84FE /* model.tflite in Resources */,
 				B5E7DA2C2A43A42B004E57B1 /* LaunchScreen.storyboard in Resources */,
 				C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */,
 				B5E7DA292A43A42B004E57B1 /* Assets.xcassets in Resources */,
@@ -449,6 +456,7 @@
 				B5E7DA242A43A42A004E57B1 /* ViewController.swift in Sources */,
 				B5E7DA202A43A42A004E57B1 /* AppDelegate.swift in Sources */,
 				B5E7DA222A43A42A004E57B1 /* SceneDelegate.swift in Sources */,
+				C906F9522A48895D00B6C42B /* ModelWorking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
