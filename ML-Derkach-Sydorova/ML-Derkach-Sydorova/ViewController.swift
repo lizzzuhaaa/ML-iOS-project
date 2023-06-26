@@ -11,6 +11,7 @@ class ViewController: UIViewController {
     @IBOutlet private weak var photoChooser: UIButton!
     @IBOutlet private weak var camOpener: UIButton!
     
+    private let mlkithelper: MLKitHelper = MLKitHelper()
     
     private func configureTap(){
         let tapImage = UITapGestureRecognizer(target: self, action: #selector(onTapImageGallery))
@@ -53,6 +54,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         }
         self.imageView.image = image
         picker.dismiss(animated: true)
+        mlkithelper.processImage(uiImage: image)
     }
     
 }
