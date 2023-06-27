@@ -6,7 +6,7 @@
 import Foundation
 import UIKit
 
-class ViewControllerSub: UIViewController {
+class DescriptionViewController: UIViewController {
     
     @IBOutlet private weak var mainView: UIView!
     @IBOutlet private weak var possibleStyle: UILabel!

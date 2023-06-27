@@ -6,7 +6,7 @@
 import UIKit
 import SwiftUI
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
     @IBOutlet weak var textOrImageViewContainer: UIView!
     private var swiftUIView: TextOrImageView!
@@ -48,7 +48,7 @@ class ViewController: UIViewController {
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
         if imageProvider.image != nil || stylesValueGot != nil {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let destinationVC = storyboard.instantiateViewController(withIdentifier: "style_desc") as! ViewControllerSub
+            let destinationVC = storyboard.instantiateViewController(withIdentifier: "style_desc") as! DescriptionViewController
             destinationVC.loadViewIfNeeded()
             
             //get style info
@@ -95,7 +95,7 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
+extension MainViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate{
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any])
     {
         guard let image = info[.originalImage] as? UIImage else
