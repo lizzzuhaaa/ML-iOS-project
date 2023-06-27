@@ -46,7 +46,7 @@ class ViewController: UIViewController {
     
     //tap on existing photo to go on next page
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
-        if imageProvider.image != nil && stylesValueGot != nil {
+        if imageProvider.image != nil || stylesValueGot != nil {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let destinationVC = storyboard.instantiateViewController(withIdentifier: "style_desc") as! ViewControllerSub
             destinationVC.loadViewIfNeeded()
