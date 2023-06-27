@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23B663BE5937765B8F326CC1 /* Pods_ML_Derkach_Sydorova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E332D6BC8AED3AF25F2EBBF /* Pods_ML_Derkach_Sydorova.framework */; };
-		79A1BF94C412623A18C0781A /* Pods_ML_Derkach_SydorovaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA39EC4BD514E90AA661E1CA /* Pods_ML_Derkach_SydorovaTests.framework */; };
+		B53A89A62A4B0DB10013E759 /* TextOrImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53A89A52A4B0DB10013E759 /* TextOrImageView.swift */; };
+		B53A89A82A4B110F0013E759 /* catSport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B53A89A72A4B110F0013E759 /* catSport.jpg */; };
 		B5E7DA202A43A42A004E57B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */; };
 		B5E7DA222A43A42A004E57B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */; };
 		B5E7DA242A43A42A004E57B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA232A43A42A004E57B1 /* ViewController.swift */; };
@@ -18,16 +18,17 @@
 		B5E7DA372A43A42B004E57B1 /* ML_Derkach_SydorovaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA362A43A42B004E57B1 /* ML_Derkach_SydorovaTests.swift */; };
 		B5E7DA412A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA402A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift */; };
 		B5E7DA432A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */; };
-		B5FAC77FD5C61E61FCE5B723 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1AA076670C45481EB58DD0 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */; };
+		B7F39A8FFEAFC75BE4442A5B /* Pods_ML_Derkach_Sydorova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE41879E8C1DCFCFA1557B4 /* Pods_ML_Derkach_Sydorova.framework */; };
 		C906F9522A48895D00B6C42B /* MLKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906F9512A48895D00B6C42B /* MLKitHelper.swift */; };
 		C95849CB2A4A2B56000CFB03 /* ViewControllerSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95849CA2A4A2B56000CFB03 /* ViewControllerSub.swift */; };
 		C95849CF2A4AD655000CFB03 /* MessageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95849CE2A4AD655000CFB03 /* MessageHelper.swift */; };
 		C95849D12A4B0376000CFB03 /* catFormal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C95849D02A4B0376000CFB03 /* catFormal.jpeg */; };
 		C95849D72A4B06C0000CFB03 /* catParty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C95849D62A4B06C0000CFB03 /* catParty.jpg */; };
 		C95849D92A4B06C5000CFB03 /* catCasual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C95849D82A4B06C5000CFB03 /* catCasual.jpg */; };
-		C95849DB2A4B06F4000CFB03 /* catSport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C95849DA2A4B06F4000CFB03 /* catSport.jpg */; };
 		C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */; };
 		C9767B2C2A4A13D0009BA92D /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = C9767B2B2A4A13D0009BA92D /* model.tflite */; };
+		CADD7086CC1BAD52C5196769 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAF41666C2AB0001DC9E830 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */; };
+		DF69AF1DEABB6DFC65C613CF /* Pods_ML_Derkach_SydorovaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2D5F046586106380F1600B /* Pods_ML_Derkach_SydorovaTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +62,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		12574C3E4B47A1525789C274 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; sourceTree = "<group>"; };
-		2502ED5D6F0633EC1AF51433 /* Pods-ML-Derkach-Sydorova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.release.xcconfig"; sourceTree = "<group>"; };
-		2517233DA295ACC7B2E2DC36 /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; sourceTree = "<group>"; };
-		3E332D6BC8AED3AF25F2EBBF /* Pods_ML_Derkach_Sydorova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44B57816032E5E1BB2EA1E65 /* Pods-ML-Derkach-Sydorova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.debug.xcconfig"; sourceTree = "<group>"; };
-		96B964B3384AD64C3C37FCF6 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.release.xcconfig"; sourceTree = "<group>"; };
+		0B3878A3D2F8FFB31BA0E3A9 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3CE41879E8C1DCFCFA1557B4 /* Pods_ML_Derkach_Sydorova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D93A568204ACBA9AD957EF7 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D2D5F046586106380F1600B /* Pods_ML_Derkach_SydorovaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_SydorovaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CAF41666C2AB0001DC9E830 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81751DA7943FFB4512DDA94D /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A3A949B9B4A03C2B590744C /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2A61812E0BECD742AB751B6 /* Pods-ML-Derkach-Sydorova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.release.xcconfig"; sourceTree = "<group>"; };
+		B53A89A52A4B0DB10013E759 /* TextOrImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOrImageView.swift; sourceTree = "<group>"; };
+		B53A89A72A4B110F0013E759 /* catSport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catSport.jpg; sourceTree = "<group>"; };
 		B5E7DA1C2A43A42A004E57B1 /* ML-Derkach-Sydorova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML-Derkach-Sydorova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -80,18 +85,15 @@
 		B5E7DA3C2A43A42B004E57B1 /* ML-Derkach-SydorovaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ML-Derkach-SydorovaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7DA402A43A42B004E57B1 /* ML_Derkach_SydorovaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Derkach_SydorovaUITests.swift; sourceTree = "<group>"; };
 		B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Derkach_SydorovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BD1AA076670C45481EB58DD0 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C906F9512A48895D00B6C42B /* MLKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLKitHelper.swift; sourceTree = "<group>"; };
 		C95849CA2A4A2B56000CFB03 /* ViewControllerSub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSub.swift; sourceTree = "<group>"; };
 		C95849CE2A4AD655000CFB03 /* MessageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageHelper.swift; sourceTree = "<group>"; };
 		C95849D02A4B0376000CFB03 /* catFormal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catFormal.jpeg; sourceTree = "<group>"; };
 		C95849D62A4B06C0000CFB03 /* catParty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catParty.jpg; sourceTree = "<group>"; };
 		C95849D82A4B06C5000CFB03 /* catCasual.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catCasual.jpg; sourceTree = "<group>"; };
-		C95849DA2A4B06F4000CFB03 /* catSport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = catSport.jpg; path = ../../../../.Trash/catSport.jpg; sourceTree = "<group>"; };
 		C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C9767B2B2A4A13D0009BA92D /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
-		CA39EC4BD514E90AA661E1CA /* Pods_ML_Derkach_SydorovaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_SydorovaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D235B5C4F8EBE87C9DBCC118 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC49DD69DAB7097B4C39694E /* Pods-ML-Derkach-Sydorova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23B663BE5937765B8F326CC1 /* Pods_ML_Derkach_Sydorova.framework in Frameworks */,
+				B7F39A8FFEAFC75BE4442A5B /* Pods_ML_Derkach_Sydorova.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A1BF94C412623A18C0781A /* Pods_ML_Derkach_SydorovaTests.framework in Frameworks */,
+				DF69AF1DEABB6DFC65C613CF /* Pods_ML_Derkach_SydorovaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B5FAC77FD5C61E61FCE5B723 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */,
+				CADD7086CC1BAD52C5196769 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,24 +127,51 @@
 		10D266E208862B9C8E8876B6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				44B57816032E5E1BB2EA1E65 /* Pods-ML-Derkach-Sydorova.debug.xcconfig */,
-				2502ED5D6F0633EC1AF51433 /* Pods-ML-Derkach-Sydorova.release.xcconfig */,
-				D235B5C4F8EBE87C9DBCC118 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */,
-				12574C3E4B47A1525789C274 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */,
-				2517233DA295ACC7B2E2DC36 /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */,
-				96B964B3384AD64C3C37FCF6 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */,
+				FC49DD69DAB7097B4C39694E /* Pods-ML-Derkach-Sydorova.debug.xcconfig */,
+				B2A61812E0BECD742AB751B6 /* Pods-ML-Derkach-Sydorova.release.xcconfig */,
+				3D93A568204ACBA9AD957EF7 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */,
+				0B3878A3D2F8FFB31BA0E3A9 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */,
+				81751DA7943FFB4512DDA94D /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */,
+				8A3A949B9B4A03C2B590744C /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		879C0BCDA6EBA7F4B62E5FE6 /* Frameworks */ = {
+		B53A89A42A4B0D9E0013E759 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3E332D6BC8AED3AF25F2EBBF /* Pods_ML_Derkach_Sydorova.framework */,
-				BD1AA076670C45481EB58DD0 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */,
-				CA39EC4BD514E90AA661E1CA /* Pods_ML_Derkach_SydorovaTests.framework */,
+				B53A89A52A4B0DB10013E759 /* TextOrImageView.swift */,
 			);
-			name = Frameworks;
+			path = View;
+			sourceTree = "<group>";
+		};
+		B53A89A92A4B11A10013E759 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C95849D02A4B0376000CFB03 /* catFormal.jpeg */,
+				B53A89A72A4B110F0013E759 /* catSport.jpg */,
+				C95849D82A4B06C5000CFB03 /* catCasual.jpg */,
+				C95849D62A4B06C0000CFB03 /* catParty.jpg */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B53A89AA2A4B11CB0013E759 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B5E7DA232A43A42A004E57B1 /* ViewController.swift */,
+				C95849CA2A4A2B56000CFB03 /* ViewControllerSub.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B53A89AB2A4B11EE0013E759 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C906F9512A48895D00B6C42B /* MLKitHelper.swift */,
+				C95849CE2A4AD655000CFB03 /* MessageHelper.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		B5E7DA132A43A42A004E57B1 = {
@@ -153,7 +182,7 @@
 				B5E7DA3F2A43A42B004E57B1 /* ML-Derkach-SydorovaUITests */,
 				B5E7DA1D2A43A42A004E57B1 /* Products */,
 				10D266E208862B9C8E8876B6 /* Pods */,
-				879C0BCDA6EBA7F4B62E5FE6 /* Frameworks */,
+				DE225A852D0894F6203C9891 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -170,22 +199,18 @@
 		B5E7DA1E2A43A42A004E57B1 /* ML-Derkach-Sydorova */ = {
 			isa = PBXGroup;
 			children = (
-				C95849D02A4B0376000CFB03 /* catFormal.jpeg */,
-				C95849DA2A4B06F4000CFB03 /* catSport.jpg */,
-				C95849D82A4B06C5000CFB03 /* catCasual.jpg */,
-				C95849D62A4B06C0000CFB03 /* catParty.jpg */,
+				B53A89AB2A4B11EE0013E759 /* Model */,
+				B53A89AA2A4B11CB0013E759 /* ViewController */,
+				B53A89A92A4B11A10013E759 /* Image */,
+				B53A89A42A4B0D9E0013E759 /* View */,
 				C9767B2B2A4A13D0009BA92D /* model.tflite */,
 				B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */,
 				B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */,
-				B5E7DA232A43A42A004E57B1 /* ViewController.swift */,
 				B5E7DA252A43A42A004E57B1 /* Main.storyboard */,
 				B5E7DA282A43A42B004E57B1 /* Assets.xcassets */,
 				B5E7DA2A2A43A42B004E57B1 /* LaunchScreen.storyboard */,
 				C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */,
 				B5E7DA2D2A43A42B004E57B1 /* Info.plist */,
-				C906F9512A48895D00B6C42B /* MLKitHelper.swift */,
-				C95849CA2A4A2B56000CFB03 /* ViewControllerSub.swift */,
-				C95849CE2A4AD655000CFB03 /* MessageHelper.swift */,
 			);
 			path = "ML-Derkach-Sydorova";
 			sourceTree = "<group>";
@@ -207,6 +232,16 @@
 			path = "ML-Derkach-SydorovaUITests";
 			sourceTree = "<group>";
 		};
+		DE225A852D0894F6203C9891 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3CE41879E8C1DCFCFA1557B4 /* Pods_ML_Derkach_Sydorova.framework */,
+				7CAF41666C2AB0001DC9E830 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */,
+				5D2D5F046586106380F1600B /* Pods_ML_Derkach_SydorovaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,13 +249,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E7DA462A43A42B004E57B1 /* Build configuration list for PBXNativeTarget "ML-Derkach-Sydorova" */;
 			buildPhases = (
-				1E0838ECAF7C2C31FFBA640A /* [CP] Check Pods Manifest.lock */,
+				077964881338BE89E39DA8F5 /* [CP] Check Pods Manifest.lock */,
 				B5E7DA182A43A42A004E57B1 /* Sources */,
 				B5E7DA192A43A42A004E57B1 /* Frameworks */,
 				B5E7DA1A2A43A42A004E57B1 /* Resources */,
 				B566A42D2A48D94100291231 /* Embed Frameworks */,
-				3833C35B6192122D498CD175 /* [CP] Embed Pods Frameworks */,
-				46BB5B5F7F51B4564D6574FF /* [CP] Copy Pods Resources */,
+				C567D1B831D047138E45BCFC /* [CP] Embed Pods Frameworks */,
+				FA3962BA8CA292560DA0696F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,7 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E7DA492A43A42B004E57B1 /* Build configuration list for PBXNativeTarget "ML-Derkach-SydorovaTests" */;
 			buildPhases = (
-				730598F0A47AD7485DF097B2 /* [CP] Check Pods Manifest.lock */,
+				9BD77803647A2F8103424105 /* [CP] Check Pods Manifest.lock */,
 				B5E7DA2E2A43A42B004E57B1 /* Sources */,
 				B5E7DA2F2A43A42B004E57B1 /* Frameworks */,
 				B5E7DA302A43A42B004E57B1 /* Resources */,
@@ -254,12 +289,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5E7DA4C2A43A42B004E57B1 /* Build configuration list for PBXNativeTarget "ML-Derkach-SydorovaUITests" */;
 			buildPhases = (
-				8FA6C369C51BEC2D00E9F092 /* [CP] Check Pods Manifest.lock */,
+				894659E46716076A3EFFBEC4 /* [CP] Check Pods Manifest.lock */,
 				B5E7DA382A43A42B004E57B1 /* Sources */,
 				B5E7DA392A43A42B004E57B1 /* Frameworks */,
 				B5E7DA3A2A43A42B004E57B1 /* Resources */,
-				FD3E0FD1459B1B86AC6FEF4F /* [CP] Embed Pods Frameworks */,
-				1FA600ED51F006C558044D9E /* [CP] Copy Pods Resources */,
+				B55DDE3B3C002D771602989E /* [CP] Embed Pods Frameworks */,
+				03D0207A61077D438EF38F8F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,8 +361,8 @@
 				C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */,
 				C95849D12A4B0376000CFB03 /* catFormal.jpeg in Resources */,
 				B5E7DA292A43A42B004E57B1 /* Assets.xcassets in Resources */,
-				C95849DB2A4B06F4000CFB03 /* catSport.jpg in Resources */,
 				B5E7DA272A43A42A004E57B1 /* Main.storyboard in Resources */,
+				B53A89A82A4B110F0013E759 /* catSport.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,7 +383,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E0838ECAF7C2C31FFBA640A /* [CP] Check Pods Manifest.lock */ = {
+		03D0207A61077D438EF38F8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		077964881338BE89E39DA8F5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,80 +422,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		1FA600ED51F006C558044D9E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3833C35B6192122D498CD175 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46BB5B5F7F51B4564D6574FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		730598F0A47AD7485DF097B2 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ML-Derkach-SydorovaTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8FA6C369C51BEC2D00E9F092 /* [CP] Check Pods Manifest.lock */ = {
+		894659E46716076A3EFFBEC4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,7 +444,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD3E0FD1459B1B86AC6FEF4F /* [CP] Embed Pods Frameworks */ = {
+		9BD77803647A2F8103424105 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ML-Derkach-SydorovaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B55DDE3B3C002D771602989E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,6 +483,40 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		C567D1B831D047138E45BCFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3962BA8CA292560DA0696F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -490,6 +525,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E7DA242A43A42A004E57B1 /* ViewController.swift in Sources */,
+				B53A89A62A4B0DB10013E759 /* TextOrImageView.swift in Sources */,
 				C95849CF2A4AD655000CFB03 /* MessageHelper.swift in Sources */,
 				B5E7DA202A43A42A004E57B1 /* AppDelegate.swift in Sources */,
 				C95849CB2A4A2B56000CFB03 /* ViewControllerSub.swift in Sources */,
@@ -666,7 +702,7 @@
 		};
 		B5E7DA472A43A42B004E57B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44B57816032E5E1BB2EA1E65 /* Pods-ML-Derkach-Sydorova.debug.xcconfig */;
+			baseConfigurationReference = FC49DD69DAB7097B4C39694E /* Pods-ML-Derkach-Sydorova.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -698,7 +734,7 @@
 		};
 		B5E7DA482A43A42B004E57B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2502ED5D6F0633EC1AF51433 /* Pods-ML-Derkach-Sydorova.release.xcconfig */;
+			baseConfigurationReference = B2A61812E0BECD742AB751B6 /* Pods-ML-Derkach-Sydorova.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -731,7 +767,7 @@
 		};
 		B5E7DA4A2A43A42B004E57B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2517233DA295ACC7B2E2DC36 /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */;
+			baseConfigurationReference = 81751DA7943FFB4512DDA94D /* Pods-ML-Derkach-SydorovaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -752,7 +788,7 @@
 		};
 		B5E7DA4B2A43A42B004E57B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 96B964B3384AD64C3C37FCF6 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */;
+			baseConfigurationReference = 8A3A949B9B4A03C2B590744C /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -773,7 +809,7 @@
 		};
 		B5E7DA4D2A43A42B004E57B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D235B5C4F8EBE87C9DBCC118 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */;
+			baseConfigurationReference = 3D93A568204ACBA9AD957EF7 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -792,7 +828,7 @@
 		};
 		B5E7DA4E2A43A42B004E57B1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12574C3E4B47A1525789C274 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */;
+			baseConfigurationReference = 0B3878A3D2F8FFB31BA0E3A9 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

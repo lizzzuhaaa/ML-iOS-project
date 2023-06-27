@@ -4,10 +4,14 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
     
-    @IBOutlet private weak var imageView: UIImageView!
+    @IBOutlet weak var textOrImageViewContainer: UIView!
+    private var swiftUIView: TextOrImageView!
+    private let imageProvider = ImageProvider()
+    
     @IBOutlet private weak var photoChooser: UIButton!
     @IBOutlet private weak var camOpener: UIButton!
     
@@ -42,7 +46,7 @@ class ViewController: UIViewController {
     
     //tap on existing photo to go on next page
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
-        if imageView.image != nil && stylesValueGot != nil {
+        if imageProvider.image != nil && stylesValueGot != nil {
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             let destinationVC = storyboard.instantiateViewController(withIdentifier: "style_desc") as! ViewControllerSub
             destinationVC.loadViewIfNeeded()
@@ -67,10 +71,26 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        swiftUIView = TextOrImageView(imageProvider: imageProvider)
+        let swiftUIViewController = UIHostingController(rootView: swiftUIView)
+        let textOrImageView = swiftUIViewController.view
+        self.textOrImageViewContainer.addSubview(textOrImageView!)
+        
+        swiftUIViewController.view.translatesAutoresizingMaskIntoConstraints = false
+        swiftUIViewController.view.frame = textOrImageViewContainer.bounds
+                
+        NSLayoutConstraint.activate([
+            swiftUIViewController.view.leadingAnchor.constraint(equalTo: textOrImageViewContainer.leadingAnchor),
+            swiftUIViewController.view.trailingAnchor.constraint(equalTo: textOrImageViewContainer.trailingAnchor),
+            swiftUIViewController.view.topAnchor.constraint(equalTo: textOrImageViewContainer.topAnchor),
+            swiftUIViewController.view.bottomAnchor.constraint(equalTo: textOrImageViewContainer.bottomAnchor)
+        ])
+        
         configureTap()
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(_:)))
-        imageView.addGestureRecognizer(tapGestureRecognizer)
-        imageView.isUserInteractionEnabled = true
+        textOrImageViewContainer.addGestureRecognizer(tapGestureRecognizer)
+        textOrImageViewContainer.isUserInteractionEnabled = true
     }
     
 }
@@ -82,7 +102,7 @@ extension ViewController: UIImagePickerControllerDelegate, UINavigationControlle
         {
             fatalError("Absent image in imagePickerController")
         }
-        self.imageView.image = image
+        imageProvider.image = image
         picker.dismiss(animated: true)
         
         
