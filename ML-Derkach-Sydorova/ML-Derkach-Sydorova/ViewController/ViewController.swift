@@ -65,8 +65,8 @@ class ViewController: UIViewController {
     
     //handle alert
     private func alertMessage(_ alert: UIAlertController){
-        print("bye")
         self.present(alert, animated: true)
+        self.imageProvider.image = nil
     }
     
     override func viewDidLoad() {

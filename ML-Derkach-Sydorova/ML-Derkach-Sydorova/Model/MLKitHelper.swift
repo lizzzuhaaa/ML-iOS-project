@@ -43,7 +43,7 @@ class MLKitHelper {
             }
             for label in labels {
                 
-                if labels[0].index != 2{
+                if label.index != 2{
                     stylesValue[label.text] = label.confidence
                 }
                 print("\(label.index): \(label.text), \(label.confidence)")

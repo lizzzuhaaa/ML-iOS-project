@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B53A89A62A4B0DB10013E759 /* TextOrImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53A89A52A4B0DB10013E759 /* TextOrImageView.swift */; };
-		B53A89A82A4B110F0013E759 /* catSport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B53A89A72A4B110F0013E759 /* catSport.jpg */; };
 		B5E7DA202A43A42A004E57B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */; };
 		B5E7DA222A43A42A004E57B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */; };
 		B5E7DA242A43A42A004E57B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA232A43A42A004E57B1 /* ViewController.swift */; };
@@ -25,6 +24,7 @@
 		C95849D12A4B0376000CFB03 /* catFormal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C95849D02A4B0376000CFB03 /* catFormal.jpeg */; };
 		C95849D72A4B06C0000CFB03 /* catParty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C95849D62A4B06C0000CFB03 /* catParty.jpg */; };
 		C95849D92A4B06C5000CFB03 /* catCasual.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C95849D82A4B06C5000CFB03 /* catCasual.jpg */; };
+		C95849DD2A4B1AC1000CFB03 /* catSport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C95849DC2A4B1AC0000CFB03 /* catSport.jpg */; };
 		C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */; };
 		C9767B2C2A4A13D0009BA92D /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = C9767B2B2A4A13D0009BA92D /* model.tflite */; };
 		CADD7086CC1BAD52C5196769 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CAF41666C2AB0001DC9E830 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */; };
@@ -71,7 +71,6 @@
 		8A3A949B9B4A03C2B590744C /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.release.xcconfig"; sourceTree = "<group>"; };
 		B2A61812E0BECD742AB751B6 /* Pods-ML-Derkach-Sydorova.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.release.xcconfig"; sourceTree = "<group>"; };
 		B53A89A52A4B0DB10013E759 /* TextOrImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOrImageView.swift; sourceTree = "<group>"; };
-		B53A89A72A4B110F0013E759 /* catSport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catSport.jpg; sourceTree = "<group>"; };
 		B5E7DA1C2A43A42A004E57B1 /* ML-Derkach-Sydorova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML-Derkach-Sydorova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -91,6 +90,7 @@
 		C95849D02A4B0376000CFB03 /* catFormal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catFormal.jpeg; sourceTree = "<group>"; };
 		C95849D62A4B06C0000CFB03 /* catParty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catParty.jpg; sourceTree = "<group>"; };
 		C95849D82A4B06C5000CFB03 /* catCasual.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catCasual.jpg; sourceTree = "<group>"; };
+		C95849DC2A4B1AC0000CFB03 /* catSport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = catSport.jpg; sourceTree = "<group>"; };
 		C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		C9767B2B2A4A13D0009BA92D /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
 		FC49DD69DAB7097B4C39694E /* Pods-ML-Derkach-Sydorova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.debug.xcconfig"; sourceTree = "<group>"; };
@@ -149,8 +149,8 @@
 			isa = PBXGroup;
 			children = (
 				C95849D02A4B0376000CFB03 /* catFormal.jpeg */,
-				B53A89A72A4B110F0013E759 /* catSport.jpg */,
 				C95849D82A4B06C5000CFB03 /* catCasual.jpg */,
+				C95849DC2A4B1AC0000CFB03 /* catSport.jpg */,
 				C95849D62A4B06C0000CFB03 /* catParty.jpg */,
 			);
 			path = Image;
@@ -361,8 +361,8 @@
 				C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */,
 				C95849D12A4B0376000CFB03 /* catFormal.jpeg in Resources */,
 				B5E7DA292A43A42B004E57B1 /* Assets.xcassets in Resources */,
+				C95849DD2A4B1AC1000CFB03 /* catSport.jpg in Resources */,
 				B5E7DA272A43A42A004E57B1 /* Main.storyboard in Resources */,
-				B53A89A82A4B110F0013E759 /* catSport.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

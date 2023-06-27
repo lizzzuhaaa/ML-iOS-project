@@ -30,6 +30,7 @@ class MessageHelper{
         self.messages.append(message)
         let advice = getAdvice(possibleStyle)
         self.messages.append(advice)
+        otherStyles(percentagePair, possibleStyle)
     }
     
     private func floatToPercentage(_ value: Float) -> String {
@@ -60,5 +61,15 @@ class MessageHelper{
             self.messages.append("catSport.jpg")
             return "Sport style is all about comfort and functionality. When dressing for a sporty look, prioritize clothes that allow ease of movement. Choose materials that wick away sweat and provide breathability. Sport style is perfect for workouts, outdoor activities, and casual athletic events. Embrace an active lifestyle while looking effortlessly cool and ready for action!"
         }
+    }
+    private func otherStyles(_ styles:[String:String], _ possibleStyle: String){
+        var allOtherStyles: String = "\n \n Other possible styles here:"
+        for style in styles{
+            if style.key != possibleStyle{
+                allOtherStyles += "\n" + style.key + " - " + style.value
+            }
+        }
+        self.messages.append(allOtherStyles)
+        
     }
 }
