@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		23B663BE5937765B8F326CC1 /* Pods_ML_Derkach_Sydorova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E332D6BC8AED3AF25F2EBBF /* Pods_ML_Derkach_Sydorova.framework */; };
 		79A1BF94C412623A18C0781A /* Pods_ML_Derkach_SydorovaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA39EC4BD514E90AA661E1CA /* Pods_ML_Derkach_SydorovaTests.framework */; };
-		B55A0E992A49F217003C9780 /* clothes.tflite in Resources */ = {isa = PBXBuildFile; fileRef = B55A0E982A49F217003C9780 /* clothes.tflite */; };
 		B5E7DA202A43A42A004E57B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */; };
 		B5E7DA222A43A42A004E57B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */; };
 		B5E7DA242A43A42A004E57B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA232A43A42A004E57B1 /* ViewController.swift */; };
@@ -21,7 +20,9 @@
 		B5E7DA432A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */; };
 		B5FAC77FD5C61E61FCE5B723 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD1AA076670C45481EB58DD0 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */; };
 		C906F9522A48895D00B6C42B /* MLKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C906F9512A48895D00B6C42B /* MLKitHelper.swift */; };
+		C95849CB2A4A2B56000CFB03 /* ViewControllerSub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C95849CA2A4A2B56000CFB03 /* ViewControllerSub.swift */; };
 		C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */; };
+		C9767B2C2A4A13D0009BA92D /* model.tflite in Resources */ = {isa = PBXBuildFile; fileRef = C9767B2B2A4A13D0009BA92D /* model.tflite */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +62,6 @@
 		3E332D6BC8AED3AF25F2EBBF /* Pods_ML_Derkach_Sydorova.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B57816032E5E1BB2EA1E65 /* Pods-ML-Derkach-Sydorova.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova/Pods-ML-Derkach-Sydorova.debug.xcconfig"; sourceTree = "<group>"; };
 		96B964B3384AD64C3C37FCF6 /* Pods-ML-Derkach-SydorovaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-SydorovaTests.release.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-SydorovaTests/Pods-ML-Derkach-SydorovaTests.release.xcconfig"; sourceTree = "<group>"; };
-		B55A0E982A49F217003C9780 /* clothes.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = clothes.tflite; sourceTree = "<group>"; };
 		B5E7DA1C2A43A42A004E57B1 /* ML-Derkach-Sydorova.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ML-Derkach-Sydorova.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,7 +77,9 @@
 		B5E7DA422A43A42B004E57B1 /* ML_Derkach_SydorovaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ML_Derkach_SydorovaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD1AA076670C45481EB58DD0 /* Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_Sydorova_ML_Derkach_SydorovaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C906F9512A48895D00B6C42B /* MLKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLKitHelper.swift; sourceTree = "<group>"; };
+		C95849CA2A4A2B56000CFB03 /* ViewControllerSub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSub.swift; sourceTree = "<group>"; };
 		C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C9767B2B2A4A13D0009BA92D /* model.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = model.tflite; sourceTree = "<group>"; };
 		CA39EC4BD514E90AA661E1CA /* Pods_ML_Derkach_SydorovaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ML_Derkach_SydorovaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D235B5C4F8EBE87C9DBCC118 /* Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; path = "Target Support Files/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests/Pods-ML-Derkach-Sydorova-ML-Derkach-SydorovaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,7 +160,7 @@
 		B5E7DA1E2A43A42A004E57B1 /* ML-Derkach-Sydorova */ = {
 			isa = PBXGroup;
 			children = (
-				B55A0E982A49F217003C9780 /* clothes.tflite */,
+				C9767B2B2A4A13D0009BA92D /* model.tflite */,
 				B5E7DA1F2A43A42A004E57B1 /* AppDelegate.swift */,
 				B5E7DA212A43A42A004E57B1 /* SceneDelegate.swift */,
 				B5E7DA232A43A42A004E57B1 /* ViewController.swift */,
@@ -168,6 +170,7 @@
 				C9602F5C2A4648FE008F84FE /* GoogleService-Info.plist */,
 				B5E7DA2D2A43A42B004E57B1 /* Info.plist */,
 				C906F9512A48895D00B6C42B /* MLKitHelper.swift */,
+				C95849CA2A4A2B56000CFB03 /* ViewControllerSub.swift */,
 			);
 			path = "ML-Derkach-Sydorova";
 			sourceTree = "<group>";
@@ -302,7 +305,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5E7DA2C2A43A42B004E57B1 /* LaunchScreen.storyboard in Resources */,
-				B55A0E992A49F217003C9780 /* clothes.tflite in Resources */,
+				C9767B2C2A4A13D0009BA92D /* model.tflite in Resources */,
 				C9602F5D2A4648FE008F84FE /* GoogleService-Info.plist in Resources */,
 				B5E7DA292A43A42B004E57B1 /* Assets.xcassets in Resources */,
 				B5E7DA272A43A42A004E57B1 /* Main.storyboard in Resources */,
@@ -469,6 +472,7 @@
 			files = (
 				B5E7DA242A43A42A004E57B1 /* ViewController.swift in Sources */,
 				B5E7DA202A43A42A004E57B1 /* AppDelegate.swift in Sources */,
+				C95849CB2A4A2B56000CFB03 /* ViewControllerSub.swift in Sources */,
 				B5E7DA222A43A42A004E57B1 /* SceneDelegate.swift in Sources */,
 				C906F9522A48895D00B6C42B /* MLKitHelper.swift in Sources */,
 			);
