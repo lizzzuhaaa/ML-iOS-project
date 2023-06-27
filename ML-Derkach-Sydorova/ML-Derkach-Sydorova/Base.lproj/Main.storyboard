@@ -82,7 +82,6 @@
                         <outlet property="camOpener" destination="ZFg-Al-hds" id="Cfs-Qe-ZOS"/>
                         <outlet property="imageView" destination="zeZ-cx-6hR" id="dEx-lH-oWE"/>
                         <outlet property="photoChooser" destination="3rY-jQ-YYX" id="jZN-5O-P0o"/>
-                        <segue destination="cJx-KC-72u" kind="showDetail" id="DB3-dj-EEc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -92,25 +91,37 @@
         <!--View Controller Sub-->
         <scene sceneID="ZOi-fQ-YdC">
             <objects>
-                <viewController id="cJx-KC-72u" customClass="ViewControllerSub" customModule="ML_Derkach_Sydorova" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="style_desc" id="cJx-KC-72u" customClass="ViewControllerSub" customModule="ML_Derkach_Sydorova" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RL2-rb-TcD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="838"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aFe-UO-SGV">
-                                <rect key="frame" x="8" y="56" width="398" height="774"/>
+                                <rect key="frame" x="8" y="56" width="398" height="798"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Style" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHu-S9-lo2">
-                                        <rect key="frame" x="143" y="371.5" width="112.5" height="31.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Style" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHu-S9-lo2">
+                                        <rect key="frame" x="8" y="80" width="382" height="31.5"/>
+                                        <color key="backgroundColor" red="1" green="0.65904242469999996" blue="0.26019662900000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="air-bn-WWf">
+                                        <rect key="frame" x="8" y="167.5" width="382" height="24"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstItem="tHu-S9-lo2" firstAttribute="centerX" secondItem="aFe-UO-SGV" secondAttribute="centerX" id="NV7-5g-b9P"/>
-                                    <constraint firstItem="tHu-S9-lo2" firstAttribute="centerY" secondItem="aFe-UO-SGV" secondAttribute="centerY" id="QDU-ic-FDy"/>
+                                    <constraint firstAttribute="trailing" secondItem="air-bn-WWf" secondAttribute="trailing" constant="8" id="O3F-V0-VFf"/>
+                                    <constraint firstItem="air-bn-WWf" firstAttribute="top" secondItem="tHu-S9-lo2" secondAttribute="bottom" constant="56" id="X88-u2-2iY"/>
+                                    <constraint firstItem="tHu-S9-lo2" firstAttribute="leading" secondItem="aFe-UO-SGV" secondAttribute="leading" constant="8" id="tH8-2Q-z5J"/>
+                                    <constraint firstItem="tHu-S9-lo2" firstAttribute="top" secondItem="aFe-UO-SGV" secondAttribute="top" constant="80" id="uPD-aB-4rC"/>
+                                    <constraint firstAttribute="trailing" secondItem="tHu-S9-lo2" secondAttribute="trailing" constant="8" id="wjg-ge-Wnz"/>
+                                    <constraint firstItem="air-bn-WWf" firstAttribute="leading" secondItem="aFe-UO-SGV" secondAttribute="leading" constant="8" id="xc1-5W-jxy"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -123,9 +134,11 @@
                             <constraint firstItem="a9W-QU-YCy" firstAttribute="trailing" secondItem="aFe-UO-SGV" secondAttribute="trailing" constant="8" id="XVO-gk-wkp"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Cbz-jD-bU5"/>
                     <connections>
-                        <outlet property="descriptionStyle" destination="tHu-S9-lo2" id="mkT-Rl-fOs"/>
-                        <outlet property="mainView" destination="aFe-UO-SGV" id="0GF-x0-aDk"/>
+                        <outlet property="descriptionStyle" destination="air-bn-WWf" id="2h2-bt-sv1"/>
+                        <outlet property="mainView" destination="aFe-UO-SGV" id="6M5-Nu-2gQ"/>
+                        <outlet property="possibleStyle" destination="tHu-S9-lo2" id="Ewh-UK-LSI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iDF-i0-2BR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

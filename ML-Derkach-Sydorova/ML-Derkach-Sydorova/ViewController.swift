@@ -42,10 +42,20 @@ class ViewController: UIViewController {
     
     //tap on existing photo to go on next page
     @objc func imageTapped(_ sender: UITapGestureRecognizer) {
-        if imageView.image != nil{
-            let destinationVC = ViewControllerSub()
-            destinationVC.setDescriptionStyle(stylesValueGot!)
-            navigationController?.pushViewController(destinationVC, animated: false)
+        if imageView.image != nil && stylesValueGot != nil {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let destinationVC = storyboard.instantiateViewController(withIdentifier: "style_desc") as! ViewControllerSub
+            destinationVC.loadViewIfNeeded()
+            
+            //get style info
+            let styleInfo = MessageHelper()
+            guard let stylesValueGot = stylesValueGot else{
+                return
+            }
+            styleInfo.getStyles(stylesValueGot)
+            destinationVC.setDescriptionStyle(styleInfo.messages)
+            
+            self.present(destinationVC, animated: true, completion: nil)
         }
     }
     
